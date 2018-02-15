@@ -11,7 +11,7 @@ import { ExampleComponent } from './example/example.component';
     PdfmakeModule
   ],
   declarations: [ExampleComponent],
-  exports: [],
+  exports: [PdfmakeModule],
   bootstrap: [ExampleComponent]
 })
 export class AppModule { }
